@@ -1,0 +1,25 @@
+header {
+  width: 300px;
+}
+
+header > hr {
+  width: 33.33%;
+  height: 7px;
+  background: black;
+}
+
+.image-container {
+  position: relative;
+  width: 300px;
+  display: inline-block;
+  margin-left: 7%;
+  margin-bottom: 3%;
+}
+
+
+
+.image-container > p {
+  position:absolute;
+  bottom: 25px;
+  color: white;
+  right: 80px;
